@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/recharge/recharge",
+    "pages/classify/classify",
+    "pages/cart/cart"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "shimng",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "lib/image/tabbar/shouyegai.png",
+        "selectedIconPath": "lib/image/tabbar/shouyegai.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "lib/image/tabbar/turntable.png",
+        "selectedIconPath": "lib/image/tabbar/turntable.png"
+      },
+      {
+        "pagePath": "pages/recharge/recharge",
+        "text": "充值",
+        "iconPath": "lib/image/tabbar/recharge.png",
+        "selectedIconPath": "lib/image/tabbar/recharge.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "lib/image/tabbar/gouwuchegai.png",
+        "selectedIconPath": "lib/image/tabbar/gouwuchegai.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "lib/image/tabbar/wodegai.png",
+        "selectedIconPath": "lib/image/tabbar/wodegai.png"
+      }
+    ],
+    "borderStyle": "white",
+    "color": "#a9b7b7",
+    "selectedColor": "#ff7f00",
+    "backgroundColor": "#F9F9F9"
+  }
+}

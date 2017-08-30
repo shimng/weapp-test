@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="zan-panel-title">按钮</view>
+   <view class="zan-panel">
+    <button class="zan-btn zan-btn--large zan-btn--primary">确认付款</button>
+    <button class="zan-btn zan-btn--large zan-btn--warn">立即购买</button>
+    <button class="zan-btn zan-btn--large zan-btn--danger">立即购买</button>
+  </view>
+  <view class="zan-panel-title">小号按钮</view>
+  <view class="zan-panel" style="padding: 15px;">
+    <button class="zan-btn zan-btn--small">取消订单</button>
+    <button class="zan-btn zan-btn--small zan-btn--primary">确认付款</button>
+  </view>
+  <view class="zan-btn">按钮</view>
+   <view >添加font-awesome：<text class="fa fa-camera-retro " style="color:red"></text></view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

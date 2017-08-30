@@ -1,0 +1,24 @@
+<view  class="section">
+<swiper class="swiper" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image class="slide-image" src="{{item.fileUrl}}" class="slide-image" bindload="slidImageLoad" style="width:{{ item.width }}rpx; height:{{ item.height }}rpx;"/>
+    </swiper-item>
+  </block>
+</swiper>
+<scroll-view scroll-y="true">
+  <view  wx:for="{{classes}}">
+    <view class="item">
+        <image src="{{item.fileurl}}" style="width:100%;height:80rpx"></image>
+    </view>
+    <navigator wx:for="{{item.productlist}}">
+        <view>
+            {{item.name}}
+        </view>
+        <image class="poster" src="{{item.imgurl}}"></image>
+    </navigator>
+  </view>
+</scroll-view>
+</view>
+
